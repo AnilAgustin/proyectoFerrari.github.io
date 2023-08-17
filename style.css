@@ -1,0 +1,61 @@
+body{
+    margin: 0; /* Quito el margen */
+    font-family: 'Anybody';
+    font-size: large;
+    background-color: #C6C4C4;
+}
+
+/* HEADER */
+header{
+    display: flex; /* Elementos se muestren de forma horizontal*/
+    height: 50px;
+    background-color: #D5D8DC;
+    justify-content: start; /* justify-content: ubica los elementos en el eje principal, space-between los separa */
+    align-items: center; /* justifica elementos verticalmente */
+    padding: 10px;
+}
+.logo-header{
+    height: 35px;
+    align-items: center;
+}
+a{
+    text-decoration: none; /* Elimino subrayado */
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-left: 30px;
+}
+nav a:hover{
+    color: white; /* al pasar el cursor cambia de color */
+}
+
+div{
+    font-family: 'Anybody';
+}
+/* convertir todos los elementos en elementos flexibles */
+/* ------------- */
+.container1, .container2, .container3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img-ferrarif150, .img-ferrarienzo, .img-ferrarif40{
+    height: 300px;
+    width: 550px;
+    margin-left: 40px;
+}
+.specification-ferrarif150, .specification-ferrarienzo, .specification-ferrarif40{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.footer{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+}
